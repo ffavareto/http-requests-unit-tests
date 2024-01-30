@@ -1,27 +1,25 @@
-# HttpRequestsUnitTests
+# Angular 17 Unit Testing Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Este é um mini projeto em Angular 17 criado para praticar testes unitários em requisições HTTP. Foi desenvolvido acompanhando uma aula do canal [Code Dimension](https://www.youtube.com/@code.dimension).
 
-## Development server
+## Instalação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone o repositório:
 
-## Code scaffolding
+    ```bash
+    git clone https://github.com/ffavareto/http-requests-unit-tests
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Instale as dependências:
 
-## Build
+    ```bash
+    cd http-requests-unit-tests
+    npm install
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Executando Testes
 
-## Running unit tests
+Execute os testes unitários para garantir que tudo está funcionando conforme o esperado:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm test
